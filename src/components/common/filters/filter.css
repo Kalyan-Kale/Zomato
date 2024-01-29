@@ -1,0 +1,17 @@
+.filter{
+    display: flex;
+    padding: 2vmax 0vmax;
+}
+
+.filter-item{
+    padding: .3vmax 1vmax;
+    border: .1vmax solid var(--inactive-text);
+    border-radius: .5vmax;
+    margin-right: .8vmax;
+    display: flex;
+    align-items: center;
+    color: #6b6b6b;
+}
+.filter-icon{
+    margin-right: .4vmax;
+}

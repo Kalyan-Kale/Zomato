@@ -1,0 +1,7 @@
+#root {
+  --primary-box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+  --inactive-text:#696969;
+  --inactive-bg-color:#f8f8f8;
+  --zomato-red:#EF4F5F;
+  --collection-shadow:rgb(0 0 0 / 8%) 0px 3px 12px;
+}

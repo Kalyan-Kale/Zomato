@@ -1,0 +1,46 @@
+/* .tap-options{
+    box-shadow: rgb(232, 232, 232) 0px -0.5px 0px inset;
+} */
+
+.option-wrapper{
+    box-shadow: rgb(232, 232, 232) 0px -0.5px 0px inset;
+    display: flex;
+}
+
+.tab-item{
+    margin-right: 2.4vmax;
+    padding: 1.2vmax;
+    /* background: red; */
+}
+
+.tab-name{
+    margin-left: 1vmax;
+    color: var(--inactive-text);
+    font-weight: 500;
+    font-size: 1.3vmax;
+}
+
+.tab-image-container{
+    width: 4vmax;
+    height: 4vmax;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--inactive-bg-color);
+}
+
+.tab-image-container img{
+    width: 100%;
+    height: 60%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.active-tab{
+    border-bottom: .2vmax solid var(--zomato-red);
+}
+
+.active-tab .tab-name{
+    color: var(--zomato-red);
+}
